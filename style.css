@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background-image: url(/001.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    max-height: 700px;
+}
+header nav {
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+header nav .navbar-nav a, .navbar-brand{
+    color: white;
+}
+header nav .navbar-nav a {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 15px;
+}
+header nav .navbar-brand{
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.home h1{
+    text-align: center;
+    color: white;
+    padding-top: 200px;
+    text-transform: uppercase;
+}
+.home h4{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.about h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.about p {
+    text-align: center;
+    margin-top: 20px;
+}
+.settings img {
+    width: 100%;
+    margin: 10px 0;
+}
+.settings h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 28px 0;
+}
+.settings h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 28px 0;
+    font-weight: normal;
+}
+.settings p {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    margin: 8px 0;
+}
